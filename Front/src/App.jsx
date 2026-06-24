@@ -12,9 +12,7 @@ function App() {
     setLoading(true);
     setError("");
 
-    const response = await fetch(
-      `http://127.0.0.1:8000/api/v1/weather/${city}`
-    );
+    const response = await fetch(`https://weatherapp-4fu9.onrender.com/api/v1/weather/${city}`);
 
     const data = await response.json();
 
