@@ -1,7 +1,5 @@
 # Weather App - Full Stack Technical Assessment
 
-# Weather App - Full Stack Technical Assessment
-
 🚀 Live Frontend:
 https://weather-app-tau-eight-30.vercel.app
 
