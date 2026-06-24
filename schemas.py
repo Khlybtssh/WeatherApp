@@ -10,3 +10,6 @@ class WeatherResponse(BaseModel):
     city: str
     current_temperature: float
     forecast: list[ForecastDay]
+
+class UpdateSearch(BaseModel):
+    city: str
