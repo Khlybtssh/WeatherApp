@@ -349,6 +349,26 @@ http://localhost:5173
 
 ---
 
+## Live Demo
+
+### Frontend (Vercel)
+
+https://weather-app-tau-eight-30.vercel.app
+
+### Backend API (Render)
+
+https://weatherapp-4fu9.onrender.com
+
+### Swagger Documentation
+
+https://weatherapp-4fu9.onrender.com/docs
+
+### Example API Request
+
+https://weatherapp-4fu9.onrender.com/api/v1/weather/Cairo
+
+---
+
 ## Demonstrated Skills
 
 This project demonstrates:
