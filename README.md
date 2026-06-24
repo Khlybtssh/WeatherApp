@@ -1,5 +1,16 @@
 # Weather App - Full Stack Technical Assessment
 
+# Weather App - Full Stack Technical Assessment
+
+🚀 Live Frontend:
+https://weather-app-tau-eight-30.vercel.app
+
+🔧 Live Backend API:
+https://weatherapp-4fu9.onrender.com
+
+📚 Swagger Documentation:
+https://weatherapp-4fu9.onrender.com/docs
+
 ## Overview
 
 This project was developed as a submission for the AI Engineer Intern Technical Assessment.
@@ -346,26 +357,6 @@ Frontend URL:
 ```text
 http://localhost:5173
 ```
-
----
-
-## Live Demo
-
-### Frontend (Vercel)
-
-https://weather-app-tau-eight-30.vercel.app
-
-### Backend API (Render)
-
-https://weatherapp-4fu9.onrender.com
-
-### Swagger Documentation
-
-https://weatherapp-4fu9.onrender.com/docs
-
-### Example API Request
-
-https://weatherapp-4fu9.onrender.com/api/v1/weather/Cairo
 
 ---
 
