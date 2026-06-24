@@ -2,16 +2,110 @@
 
 ## Overview
 
-This project is a full-stack weather application built as part of the AI Engineer Intern Technical Assessment.
+This project was developed as a submission for the AI Engineer Intern Technical Assessment.
 
-The application allows users to search for any city and retrieve real-time weather information and forecast data using external weather APIs. The project demonstrates backend API development, database integration, CRUD operations, data persistence, error handling, and frontend-backend communication.
+The application allows users to search for a city and retrieve real-time weather information and multi-day forecasts using external weather APIs. In addition to weather retrieval, the system stores search history in a database and provides full CRUD functionality, data export capabilities, validation, and error handling.
+
+The project demonstrates both backend and frontend development skills through a FastAPI REST API and a React-based user interface.
+
+---
+
+## Assessment Requirements Covered
+
+### Backend
+
+* REST API development using FastAPI
+* External API integration (Open-Meteo)
+* SQLite database persistence
+* Full CRUD operations
+* Input validation
+* Error handling
+* CSV data export
+
+### Frontend
+
+* React-based user interface
+* Weather search functionality
+* Multi-day forecast display
+* User-friendly error messages
+* Frontend-backend communication
+
+---
+
+## Application Preview
+
+### Weather Search Interface
+
+Users can search for weather information by city name.
+
+<img width="1127" height="690" alt="Weather Search Interface" src="https://github.com/user-attachments/assets/91c7bc11-afe2-4a2b-87c8-456962fda394" />
+
+---
+
+### Weather Forecast Results
+
+The application displays current weather conditions along with forecast data retrieved from external weather services.
+
+<img width="1127" height="688" alt="Weather Forecast Results" src="https://github.com/user-attachments/assets/026e609c-660b-4604-bc80-28fbb1e206df" />
+
+---
+
+### FastAPI API Documentation
+
+Interactive Swagger documentation is automatically generated for testing and exploring API endpoints.
+
+<img width="992" height="636" alt="FastAPI Swagger Documentation" src="https://github.com/user-attachments/assets/f6cacd43-f5c3-41e3-afed-f36add516b38" />
 
 ---
 
 ## Features
-<img width="1125" height="688" alt="image" src="https://github.com/user-attachments/assets/ed308d66-0878-47e5-8384-d523b6339402" />
 
-<img width="1127" height="688" alt="image" src="https://github.com/user-attachments/assets/026e609c-660b-4604-bc80-28fbb1e206df" />
+### Weather Search
+
+* Search weather information by city name.
+* Retrieve real-time weather data.
+* Display multi-day weather forecasts.
+* Validate city existence before processing requests.
+
+### Error Handling
+
+* Invalid city detection.
+* User-friendly error messages.
+* Graceful handling of API failures.
+
+### Database Persistence
+
+Every successful weather search is stored in SQLite.
+
+Stored information includes:
+
+* City name
+* Current temperature
+* Search history records
+
+### CRUD Operations
+
+#### Create
+
+Store weather search results in the database.
+
+#### Read
+
+* Retrieve all stored searches.
+* Retrieve a specific search by ID.
+
+#### Update
+
+Update existing weather records.
+
+#### Delete
+
+Delete existing weather records.
+
+### Data Export
+
+Export weather history records as CSV files.
+
 
 ### Weather Search
 
@@ -276,4 +370,6 @@ This project demonstrates:
 
 Osama Yousef
 
-AI Engineer Intern Technical Assessment Submission
+AI Engineer Intern Applicant
+
+Technical Assessment Submission for PM Accelerator
